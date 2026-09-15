@@ -1,0 +1,35 @@
+.env
+__pycache__/
+*.pyc
+# Large data/binary files -- kept out of git (GitHub hard-blocks files
+# over 100MB anyway). Linked from README.md instead via Google Drive.
+data/store/*.csv
+dist/
+build/
+*.spec
+
+# Small, genuinely useful deliverables -- these SHOULD be tracked in git
+# (trained model is typically well under 1MB; reports are tiny JSON):
+# ml/model_store/*.joblib
+# ml/model_store/train_metrics.json
+# reports/latest_report.json
+
+dashboard/state.json
+logs/*.log
+# Log files
+*.log
+
+# Data folders
+data/
+
+# Virtual environments and caches
+python/
+venv/
+__pycache__/
+*.pyc
+
+# Local AI/Editor configs
+.agents/
+
+# Secrets (just in case you create one later)
+.env

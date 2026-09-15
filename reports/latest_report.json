@@ -1,0 +1,49 @@
+{
+  "total_crossover_signals": 52,
+  "signals_accepted": 0,
+  "signals_avoided": 29,
+  "basic_strategy": {
+    "book": "basic",
+    "total_trades": 22,
+    "open_trades": 1,
+    "wins": 10,
+    "losses": 11,
+    "breakeven": 1,
+    "win_rate": 0.45454545454545453,
+    "total_pnl": -388.7900000000269
+  },
+  "ml_filtered_strategy": {
+    "book": "filtered",
+    "total_trades": 0,
+    "open_trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "breakeven": 0,
+    "win_rate": 0.0,
+    "total_pnl": 0
+  },
+  "losing_trades_avoided_estimate": {
+    "avoided_signals_resolved_in_basic_book": 22,
+    "would_have_lost": 12,
+    "would_have_won": 10,
+    "pct_of_avoided_that_were_losses": 0.5454545454545454,
+    "avoided_unresolved_still_open_or_no_match": 7
+  },
+  "avoid_reasons_breakdown": {
+    "Low model confidence": 29,
+    "LTQ fading": 14,
+    "Ask pressure strong": 7,
+    "SMMA spread flat/narrowing": 27,
+    "LTQ decelerating": 12,
+    "Depth balanced": 7,
+    "LTQ rising into weakness": 4,
+    "LTQ accelerating": 9,
+    "LTQ flat/falling": 7,
+    "Bid support strong": 6,
+    "SMMA spread widening": 1,
+    "LTQ rising": 4,
+    "Ask pressure building": 3,
+    "SMMA spread widening down": 1,
+    "Bid support building": 6
+  }
+}
