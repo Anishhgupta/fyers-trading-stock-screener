@@ -1,0 +1,44 @@
+{
+  "source_files": {
+    "data\\store\\ticks_2026-08-31.csv": 12,
+    "data\\store\\ticks_2026-09-01.csv": 49,
+    "data\\store\\ticks_2026-09-02.csv": 1,
+    "data\\store\\ticks_2026-09-03.csv": 0,
+    "data\\store\\ticks_2026-09-05.csv": 1,
+    "data\\store\\ticks_2026-09-10.csv": 15
+  },
+  "n_examples": 78,
+  "n_train": 62,
+  "n_val": 16,
+  "val_auc": 0.5818181818181818,
+  "val_report": {
+    "0": {
+      "precision": 0.7,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.6666666666666666,
+      "support": 11.0
+    },
+    "1": {
+      "precision": 0.3333333333333333,
+      "recall": 0.4,
+      "f1-score": 0.36363636363636365,
+      "support": 5.0
+    },
+    "accuracy": 0.5625,
+    "macro avg": {
+      "precision": 0.5166666666666666,
+      "recall": 0.5181818181818182,
+      "f1-score": 0.5151515151515151,
+      "support": 16.0
+    },
+    "weighted avg": {
+      "precision": 0.5854166666666666,
+      "recall": 0.5625,
+      "f1-score": 0.571969696969697,
+      "support": 16.0
+    }
+  },
+  "base_rate_profitable": 0.3333333333333333,
+  "min_examples_required": 30,
+  "below_recommended_30_example_minimum": false
+}
