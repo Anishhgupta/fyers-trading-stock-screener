@@ -210,15 +210,3 @@ crossover — this is what's been run in this environment (pytest wasn't
 installable in this sandbox, so it was executed directly with `python3`;
 verify equivalently on your machine).
 
-## Deliverables checklist (from the assignment)
-
-- [x] Complete Python source code — this repo
-- [ ] Working .exe — `python build_exe.py` on Windows (needs a Windows
-      host or Wine; not buildable in this sandbox)
-- [ ] Collected data and trained model — generate via a real trading-day
-      run against Fyers/Angel One, then `ml.train`
-- [ ] Paper-trading/performance report — `reports/latest_report.json`,
-      auto-generated at the end of every `main.py` run
-- [ ] Screen recording — capture your own live run per the assignment's
-      list (data collection, screening, crossover detection, LTQ/Bid-Ask
-      analysis, AI/ML decisions, paper trading, monitoring, final results)
